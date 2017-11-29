@@ -30,6 +30,8 @@ namespace PaintShop.Services.Implementation
         #region Public Method
         public string GetCustomerColors(string filePath)
         {
+            if (string.IsNullOrEmpty(filePath))
+                throw new ArgumentException("file is missing");
             try
             {                
                 IEnumerable<string> inputLines = readFile.ReadLine(filePath);
