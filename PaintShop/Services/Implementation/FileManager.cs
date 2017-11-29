@@ -18,10 +18,8 @@ namespace PaintShop.Services.Implementation
             catch
             {
                 throw;
-            }
-            
+            }            
         }
-
         #endregion
     }
 }
