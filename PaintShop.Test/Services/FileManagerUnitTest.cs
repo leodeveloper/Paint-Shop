@@ -17,7 +17,6 @@ namespace PaintShop.Test.Services
         Mock<IReadFile> mockRepository;
         AutoMocker mocker;
         FileManager fileManager;
-
         [OneTimeSetUp]
         public void TestSetup()
         {
