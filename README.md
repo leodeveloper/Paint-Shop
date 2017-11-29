@@ -44,3 +44,4 @@ M M
 ** Running
 Go release folder in the command propmt
 Example run in command line: drive:\Release>PaintShop testfile.txt
+there are four other testfile available inside the release folder.
