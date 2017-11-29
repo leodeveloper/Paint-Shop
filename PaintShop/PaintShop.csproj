@@ -81,7 +81,57 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="bin\Debug\PaintShop.exe.config" />
+    <None Include="bin\Release\PaintShop.exe.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\CommonServiceLocator.dll" />
+    <Content Include="bin\Debug\CommonServiceLocator.pdb" />
+    <Content Include="bin\Debug\PaintShop.exe" />
+    <Content Include="bin\Debug\PaintShop.pdb" />
+    <Content Include="bin\Debug\testFile.txt" />
+    <Content Include="bin\Debug\testFile1.txt" />
+    <Content Include="bin\Debug\testFile2.txt" />
+    <Content Include="bin\Debug\testFile3.txt" />
+    <Content Include="bin\Debug\testFile4.txt" />
+    <Content Include="bin\Debug\Unity.Abstractions.dll" />
+    <Content Include="bin\Debug\Unity.Abstractions.pdb" />
+    <Content Include="bin\Debug\Unity.Configuration.dll" />
+    <Content Include="bin\Debug\Unity.Configuration.pdb" />
+    <Content Include="bin\Debug\Unity.Container.dll" />
+    <Content Include="bin\Debug\Unity.Container.pdb" />
+    <Content Include="bin\Debug\Unity.Interception.Configuration.dll" />
+    <Content Include="bin\Debug\Unity.Interception.Configuration.pdb" />
+    <Content Include="bin\Debug\Unity.Interception.dll" />
+    <Content Include="bin\Debug\Unity.Interception.pdb" />
+    <Content Include="bin\Debug\Unity.RegistrationByConvention.dll" />
+    <Content Include="bin\Debug\Unity.RegistrationByConvention.pdb" />
+    <Content Include="bin\Debug\Unity.ServiceLocation.dll" />
+    <Content Include="bin\Debug\Unity.ServiceLocation.pdb" />
+    <Content Include="bin\Release\CommonServiceLocator.dll" />
+    <Content Include="bin\Release\CommonServiceLocator.pdb" />
+    <Content Include="bin\Release\PaintShop.exe" />
+    <Content Include="bin\Release\PaintShop.pdb" />
+    <Content Include="bin\Release\testFile.txt" />
+    <Content Include="bin\Release\testFile1.txt" />
+    <Content Include="bin\Release\testFile2.txt" />
+    <Content Include="bin\Release\testFile3.txt" />
+    <Content Include="bin\Release\testFile4.txt" />
+    <Content Include="bin\Release\Unity.Abstractions.dll" />
+    <Content Include="bin\Release\Unity.Abstractions.pdb" />
+    <Content Include="bin\Release\Unity.Configuration.dll" />
+    <Content Include="bin\Release\Unity.Configuration.pdb" />
+    <Content Include="bin\Release\Unity.Container.dll" />
+    <Content Include="bin\Release\Unity.Container.pdb" />
+    <Content Include="bin\Release\Unity.Interception.Configuration.dll" />
+    <Content Include="bin\Release\Unity.Interception.Configuration.pdb" />
+    <Content Include="bin\Release\Unity.Interception.dll" />
+    <Content Include="bin\Release\Unity.Interception.pdb" />
+    <Content Include="bin\Release\Unity.RegistrationByConvention.dll" />
+    <Content Include="bin\Release\Unity.RegistrationByConvention.pdb" />
+    <Content Include="bin\Release\Unity.ServiceLocation.dll" />
+    <Content Include="bin\Release\Unity.ServiceLocation.pdb" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
